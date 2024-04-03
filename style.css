@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c0dbd9;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  background-color: #7faff6;
+  width: 1170px;
+  height: 100px;
+  margin: 0 auto;
+}
+.header__container {
+  padding: 0 30px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__button {
+  border: none;
+  width: 206px;
+  height: 39px;
+  padding: 8px 15px 8px 15px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #a5c7f9;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.44px;
+  color: #fff;
+}
+.header__button:focus + .header__bg {
+  display: flex;
+}
+.header__bg {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.header__popup {
+  background: #fff;
+  width: 400px;
+  height: 400px;
+  font-family: Roboto;
+  font-size: 53px;
+  font-weight: 400;
+  line-height: 62.11px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.header__close {
+  width: 43px;
+  height: 39px;
+  top: 15px;
+  left: 342px;
+  padding: 8px 15px 8px 15px;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.44px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background-color: #7faff6;
+  border: none;
+  color: #fff;
+}
+.flex {
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 1170px;
+  height: 411px;
+  background-color: #b3f95a;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex__item {
+  height: 198px;
+  font-size: 53px;
+  font-weight: 400;
+  line-height: 62.11px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8ad191;
+}
+.flex__item_tiny {
+  width: 160px;
+}
+.flex__item_small {
+  width: 390px;
+}
+.flex__item_medium {
+  width: 590px;
+}
+.flex__item_long {
+  width: 995px;
+}
+.flex__item_margin {
+  margin-top: 15px;
+}
+.card {
+  margin: 15px auto 0 auto;
+  width: 1170px;
+  height: 259px;
+  display: flex;
+  align-items: center;
+  background-color: #88b5bf;
+  padding: 0 15px;
+}
+.card__item {
+  margin: 0 15px;
+  width: 255px;
+  height: 199px;
+  background-color: #0d89b0;
+}
+
+.footer {
+  width: 1170px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #7faff6;
+}
